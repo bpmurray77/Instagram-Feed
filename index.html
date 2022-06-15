@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+  <div id="test-modal" class="modal fade" role="dialog">
     <div class="modal-dialog" role="document">
       <div class="modal-content rounded-4 shadow">
         <div class="modal-header p-5 pb-4 border-bottom-0">
@@ -47,6 +48,7 @@
         </div>
       </div>
     </div>
+  </div>
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-0 text-dark text-decoration-none">
@@ -56,7 +58,7 @@
             <ul class="nav col-3 col-auto me-auto mb-2 justify-content-left mb-md-0">
               <li><a href="#" class="nav-link px-2 link-secondary"><img src="https://www.vectorlogo.zone/logos/instagram/instagram-ar21.png" width=100px height=auto></a></li>
             </ul>
-            <button type="button" class="btn btn-success">Create a new posts</button>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-target="#test-modal">Create a new posts</button>
     
             <div class="dropdown text-end">
               <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
