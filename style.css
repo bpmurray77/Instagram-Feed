@@ -13,3 +13,30 @@
     display: flex;
     flex-direction: column;
 }
+
+.heading {
+    background-color: white;
+}
+div.post {
+    background: white
+}
+header h1 {
+    margin: 0
+}
+div.container{
+    width: 500px;
+    margin: auto
+}
+.post{
+    position: relative;
+    top: 21px
+}
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    background: lightgray;
+}
