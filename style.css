@@ -12,6 +12,18 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn-success {
+    position: relative;
+    right: 25px
+}
+
+.text-end {
+    position: relative;
+    right: 15px
 }
 
 .heading {
