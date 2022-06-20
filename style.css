@@ -78,8 +78,27 @@ div.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+    bottom: 10px;
 }
 
 body {
     background: lightgray;
+}
+
+.likes{
+    padding-top: 15px;
+}
+
+.comments{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    color: grey;
+}
+
+.comment {
+    position: relative;
+    left: 15px;
+    bottom: 5px;
 }
